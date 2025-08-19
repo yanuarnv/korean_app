@@ -30,19 +30,19 @@ class InformationView extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("My information", style: AppTextStyle.headline1),
+              Text("내정보", style: AppTextStyle.headline1),
               const SizedBox(height: 30,),
               GestureDetector(
                   onTap: (){
                     Get.toNamed('/home/information/basic-information');
                   },
-                  child: CardUnderscoreWidget(title: "Basic information")),
+                  child: CardUnderscoreWidget(title: "기본 정보")),
               GestureDetector(
                   onTap: (){
                     Get.toNamed('/home/information/password-setting');
                   },
-                  child: CardUnderscoreWidget(title: "Password setting")),
-              CardUnderscoreWidget(title: "Interest category"),
+                  child: CardUnderscoreWidget(title: "비밀번호 설정")),
+              CardUnderscoreWidget(title: "관심 카테고리"),
             ],
           ),
         ),

@@ -61,7 +61,7 @@ class _CampaignViewState extends State<CampaignView>
             Padding(
               padding: const EdgeInsets.only(left: 16.0, right: 16.0),
               child: Text(
-                "Campaign",
+                "캠페인 매칭",
                 style: AppTextStyle.headline1,
                 semanticsLabel: "Campaign page title",
               ),
@@ -81,9 +81,9 @@ class _CampaignViewState extends State<CampaignView>
                     labelStyle: AppTextStyle.semiBold16,
                     unselectedLabelStyle: AppTextStyle.semiBold16,
                     tabs: const [
-                      Tab(text: "Application"),
-                      Tab(text: "In Progress"),
-                      Tab(text: "Complete"),
+                      Tab(text: "신청"),
+                      Tab(text: "진행중"),
+                      Tab(text: "진행중"),
                     ],
                   ),
                   Expanded(

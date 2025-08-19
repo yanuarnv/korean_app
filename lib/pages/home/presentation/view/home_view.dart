@@ -13,13 +13,13 @@ class HomeView extends GetView<HomeController> {
   HomeView({super.key});
 
   final informationMap = <String, Widget>{
-    "My information": Assets.icons.user.svg(),
-    "announcement": Assets.icons.note.svg(),
-    "1: 1 inquiry": Assets.icons.messages.svg(),
+    "내 정보": Assets.icons.user.svg(),
+    "공지사항": Assets.icons.note.svg(),
+    "1:1문의": Assets.icons.messages.svg(),
     "FAQ": Assets.icons.messageQuestion.svg(),
-    "Terms and Conditions and Policy": Assets.icons.taskSquare.svg(),
-    "log out": Assets.icons.logout.svg(),
-    "Membership withdrawal": Assets.icons.breakAway.svg(),
+    "약관 및 정책": Assets.icons.taskSquare.svg(),
+    "로그아웃": Assets.icons.logout.svg(),
+    "회원탈퇴": Assets.icons.breakAway.svg(),
   };
 
   @override
@@ -61,7 +61,7 @@ class HomeView extends GetView<HomeController> {
                                       MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text(
-                                      "My campaign",
+                                      "나의 캠페인",
                                       style: AppTextStyle.semiBold16,
                                     ),
                                     Icon(
@@ -84,7 +84,7 @@ class HomeView extends GetView<HomeController> {
                                           style: AppTextStyle.semiBold24Purple,
                                         ),
                                         Text(
-                                          "application",
+                                          "신청",
                                           style: AppTextStyle.semiBold16,
                                         ),
                                       ],
@@ -102,7 +102,7 @@ class HomeView extends GetView<HomeController> {
                                           style: AppTextStyle.semiBold24Purple,
                                         ),
                                         Text(
-                                          "in progress",
+                                          "진행중",
                                           style: AppTextStyle.semiBold16,
                                         ),
                                       ],
@@ -121,7 +121,7 @@ class HomeView extends GetView<HomeController> {
                                         ),
 
                                         Text(
-                                          "complete",
+                                          "완료",
                                           style: AppTextStyle.semiBold16,
                                         ),
                                       ],
@@ -150,7 +150,7 @@ class HomeView extends GetView<HomeController> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    "My campaign",
+                                    "나의 캠페인",
                                     style: AppTextStyle.semiBold16,
                                   ),
                                   Icon(
@@ -172,7 +172,7 @@ class HomeView extends GetView<HomeController> {
                                         style: AppTextStyle.semiBold24Purple,
                                       ),
                                       Text(
-                                        "application",
+                                        "신청",
                                         style: AppTextStyle.semiBold16,
                                       ),
                                     ],
@@ -189,7 +189,7 @@ class HomeView extends GetView<HomeController> {
                                         style: AppTextStyle.semiBold24Purple,
                                       ),
                                       Text(
-                                        "in progress",
+                                        "진행중",
                                         style: AppTextStyle.semiBold16,
                                       ),
                                     ],
@@ -207,7 +207,7 @@ class HomeView extends GetView<HomeController> {
                                       ),
 
                                       Text(
-                                        "complete",
+                                        "완료",
                                         style: AppTextStyle.semiBold16,
                                       ),
                                     ],
@@ -240,8 +240,8 @@ class HomeView extends GetView<HomeController> {
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Hello,", style: AppTextStyle.headline3),
-              Text("Hong Gil -dong", style: AppTextStyle.headline1),
+              Text("안녕하세요,,", style: AppTextStyle.headline3),
+              Text("홍길동님", style: AppTextStyle.headline1),
             ],
           ),
           Assets.img.uploadImg.image(width: 100, height: 100),
