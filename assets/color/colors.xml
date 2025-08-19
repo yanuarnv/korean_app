@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary -->
+    <color name="primary">#440D7E</color>
+    <color name="text_primary">#2E2E2E</color>
+    <color name="text_secondary">#757575</color>
+    <color name="form_disable">#F2F2F2</color>
+    <color name="button_disable">#CECECE</color>
+    <color name="card">#FCFCFC</color>
+    <color name="secondary">#EF8030</color>
+    <color name="white">#FFFFFF</color>
+</resources>
